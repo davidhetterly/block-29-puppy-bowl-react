@@ -1,0 +1,111 @@
+.allPlayersContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.playerCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(to bottom, rgba(70, 120, 193), rgba(21, 30, 39));
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    margin: 20px;
+    width: 300px;
+    justify-content: flex-start;
+
+}
+
+img {
+    max-width: 250px;
+    max-height: 250px;
+    min-height: 250px;
+    border-radius: 20px;
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    margin-bottom: 10px;
+  }
+
+  /* AllPlayers.css */
+.allPlayersContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.playerCard {
+display: flex;
+    justify-content: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.playerCard img {
+ 
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.playerCard p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.detailsButton,
+.removeButton {
+  flex: 1;
+  padding: 5px 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.detailsButton {
+  background-color: #007bff;
+  color: #fff;
+  margin-right: 5px;
+}
+
+.removeButton {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+body{
+    color: hsl(0 0% 93%);
+    background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExczV0NGNxejdxcDg0cXFicDF6eDU4YjhxeWgycnJ1anQzNXM2dWFocSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/q0aoHy6cvmbU4/giphy.gif) ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:100% auto;
+    background-color: #0D0D0D;
+    }
+    
+div{
+    color: hsl(0 0% 93%);
+    background-color: #0D0D0D25;
+    border-radius: 20px;
+    }
