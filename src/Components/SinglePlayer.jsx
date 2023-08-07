@@ -1,10 +1,12 @@
+/* eslint-disable no-constant-condition */
 /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
+
+
 import { useNavigate, useParams } from "react-router-dom";
 import { useState } from "react";
 import { useEffect } from "react";
-import BreedImage from "./BreedImage";
 
 export default function SinglePlayer({ APIURL }) {
     const navigate = useNavigate();

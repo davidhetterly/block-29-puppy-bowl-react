@@ -2,7 +2,6 @@
 /* eslint-disable react/prop-types */
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import BreedImage from "./BreedImage";
 
 export default function NewPlayerForm({ APIURL }) {
   const [name, setName] = useState("");
@@ -134,7 +133,7 @@ export default function NewPlayerForm({ APIURL }) {
       />
       <br></br>
       <button type="submit" onClick={() => navigate(-1)}>
-        Submit
+        Ring Bell
       </button>
     </form>
     
